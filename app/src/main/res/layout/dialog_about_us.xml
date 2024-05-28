@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mart is your go-to app for exploring the vibrant world of modern art through fun and educational quizzes. Perfect for art enthusiasts, students, or the curious mind, our quizzes cover iconic artists, masterpieces, and influential art movements."
+        android:textSize="16sp"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What We Offer:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Engaging Quizzes: Each session features 10 random questions, ensuring a unique experience every time. No time limits let you learn at your own pace."
+        android:textSize="16sp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instant Feedback: After selecting an answer, the correct answer is immediately highlighted:\nCorrect answers are highlighted in green.\nIncorrect answers are highlighted in red, and the correct answer is shown."
+        android:textSize="16sp"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our mission is to make learning about modern art enjoyable and accessible for everyone. Dive in and discover the beauty and wonder of modern art with Mart!"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"/>
+</LinearLayout>

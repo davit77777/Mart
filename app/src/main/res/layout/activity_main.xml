@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/light_green_gradient"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Hello there!"
+            app:titleMargin="15dp"
+            app:titleTextColor="@color/black"
+            android:theme="?attr/toolbarStyle"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/summer_illustration" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/light_green"
+                android:padding="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mart"
+                    android:gravity="center"
+                    android:textSize="34sp"
+                    android:letterSpacing="0.1"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome to Mart!\nRead the rules to get started"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:layout_margin="16dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:paddingHorizontal="100dp"
+                android:paddingVertical="12dp"
+                android:text="Start Quiz"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/btnRules"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingHorizontal="80dp"
+                android:paddingVertical="12dp"
+                android:text="Rules"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="#5B8C41"/>
+
+            <Button
+                android:id="@+id/btnLeaderboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingHorizontal="70dp"
+                android:paddingVertical="12dp"
+                android:text="Leaderboard"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="#85DA58"/>
+
+            <Button
+                android:id="@+id/btnAboutUs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingHorizontal="80dp"
+                android:paddingVertical="12dp"
+                android:text="Abous Us"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:backgroundTint="#99AC7B"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

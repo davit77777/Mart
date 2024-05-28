@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Objective:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test your knowledge about modern art by answering questions related to artists, art movements, artworks, and art history."
+        android:textSize="16sp"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Format:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Each quiz session consists of 10 randomly selected questions from a large pool of questions.\nThere is no time limit to answer each question, allowing players to take their time and think carefully."
+        android:textSize="16sp"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question Types:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multiple-choice questions with four possible answers.\nThe questions cover various topics including famous artists, iconic artworks, art techniques, art movements, and significant art events."
+        android:textSize="16sp"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer Review:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="After selecting an answer, the correct answer is immediately highlighted:\nCorrect answers are highlighted in green.\nIncorrect answers are highlighted in red, and the correct answer is shown."
+        android:textSize="16sp"
+        android:paddingBottom="16dp"/>
+</LinearLayout>
